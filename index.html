@@ -3,40 +3,88 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>StayEase Login</title>
+  <title>Joan Erica Gabion | Virtual Assistant</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gradient-to-br from-pink-50 to-rose-100 flex items-center justify-center min-h-screen">
+<body class="bg-gradient-to-b from-blue-50 to-indigo-50 font-sans text-gray-900">
 
-  <div class="bg-white shadow-xl rounded-2xl p-10 w-full max-w-md text-center">
-    
-    <!-- Logo or Title -->
-    <h1 class="text-3xl font-extrabold text-rose-500 mb-4">StayEase</h1>
-    <p class="text-gray-500 mb-8">Welcome back! Log in to manage your stay or bookings.</p>
-    
-    <!-- Login Form -->
-    <form class="space-y-5">
-      <div>
-        <input type="email" placeholder="Email Address" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-rose-400 focus:outline-none">
-      </div>
-      <div>
-        <input type="password" placeholder="Password" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-rose-400 focus:outline-none">
-      </div>
-      <button type="submit" class="w-full bg-rose-500 hover:bg-rose-600 text-white font-semibold py-3 rounded-lg shadow-md transition duration-200">
-        Login
-      </button>
-    </form>
-
-    <!-- Extra Links -->
-    <div class="mt-6 text-sm text-gray-500">
-      <p>Don’t have an account? 
-        <a href="#" class="text-rose-500 font-medium hover:underline">Sign up</a>
-      </p>
-      <p class="mt-2">
-        <a href="#" class="text-gray-400 hover:text-rose-400 hover:underline">Forgot password?</a>
-      </p>
+  <!-- Header -->
+  <header class="bg-white shadow-md sticky top-0 z-10">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold text-indigo-600">Joan Erica Gabion</h1>
+      <nav class="space-x-6">
+        <a href="#about" class="hover:text-indigo-600 transition">About</a>
+        <a href="#services" class="hover:text-indigo-600 transition">Services</a>
+        <a href="#contact" class="hover:text-indigo-600 transition">Contact</a>
+      </nav>
     </div>
-  </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="max-w-5xl mx-auto px-6 py-20 text-center">
+    <h2 class="text-4xl md:text-5xl font-extrabold text-indigo-600 mb-4">Hi, I’m Joan 👋</h2>
+    <p class="text-gray-700 text-lg md:text-xl max-w-2xl mx-auto mb-8">
+      I’m a Virtual Assistant ready to help businesses and entrepreneurs streamline tasks,  
+      manage schedules, handle emails, and provide administrative support so you can focus on growth.
+    </p>
+    <a href="#contact" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-200">
+      Hire Me
+    </a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-4xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold text-indigo-600 mb-6 text-center">About Me</h3>
+    <p class="text-gray-700 leading-relaxed text-center">
+      I specialize in providing reliable and efficient virtual assistance, including email management, scheduling, research, social media support, and other administrative tasks.  
+      My goal is to help entrepreneurs and small businesses save time and stay organized.
+    </p>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="max-w-5xl mx-auto px-6 py-16">
+    <h3 class="text-3xl font-bold text-indigo-600 mb-10 text-center">Services I Offer</h3>
+
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Service 1 -->
+      <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
+        <h4 class="text-xl font-semibold mb-2">Email & Calendar Management</h4>
+        <p class="text-gray-600 mb-4">
+          Organize your inbox, manage your calendar, and keep your day running smoothly.
+        </p>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
+        <h4 class="text-xl font-semibold mb-2">Social Media Support</h4>
+        <p class="text-gray-600 mb-4">
+          Schedule posts, respond to messages, and help maintain an active social media presence.
+        </p>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
+        <h4 class="text-xl font-semibold mb-2">Administrative Tasks</h4>
+        <p class="text-gray-600 mb-4">
+          From data entry to research, I provide administrative assistance tailored to your needs.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="max-w-4xl mx-auto px-6 py-16 text-center">
+    <h3 class="text-3xl font-bold text-indigo-600 mb-6">Contact Me</h3>
+    <p class="text-gray-700 mb-8">Ready to get started? Reach out for a consultation or to discuss your project.</p>
+    <a href="mailto:joan@example.com" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-200">
+      Send Email
+    </a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-gray-300 py-6 text-center text-gray-500 text-sm">
+    © 2026 Joan Erica Gabion. All rights reserved.
+  </footer>
 
 </body>
 </html>
