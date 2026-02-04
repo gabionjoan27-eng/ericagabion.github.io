@@ -6,12 +6,17 @@
   <title>Joan Erica Gabion | Virtual Assistant</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="bg-gradient-to-b from-blue-50 to-indigo-50 font-sans text-gray-900">
+<body class="bg-gray-50 font-sans text-black relative overflow-x-hidden">
+
+  <!-- Minimalist Background Shapes -->
+  <div class="absolute top-0 left-0 w-72 h-72 bg-indigo-200 rounded-full -translate-x-1/2 -translate-y-1/2 opacity-30 pointer-events-none"></div>
+  <div class="absolute bottom-0 right-0 w-96 h-96 bg-pink-200 rounded-full translate-x-1/2 translate-y-1/2 opacity-30 pointer-events-none"></div>
+  <div class="absolute top-1/3 right-0 w-64 h-64 bg-yellow-200 rounded-full opacity-20 pointer-events-none"></div>
 
   <!-- Header -->
   <header class="bg-white shadow-md sticky top-0 z-10">
     <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-      <h1 class="text-2xl font-bold text-indigo-600">Joan Erica Gabion</h1>
+      <h1 class="text-2xl font-bold text-black">Joan Erica Gabion</h1>
       <nav class="space-x-6">
         <a href="#about" class="hover:text-indigo-600 transition">About</a>
         <a href="#services" class="hover:text-indigo-600 transition">Services</a>
@@ -23,22 +28,22 @@
   <!-- Hero Section -->
   <section class="max-w-5xl mx-auto px-6 py-20">
     <div class="flex flex-col md:flex-row items-center md:space-x-12">
-      
+
       <!-- Text Content -->
       <div class="text-center md:text-left md:flex-1 mb-8 md:mb-0">
-        <h2 class="text-4xl md:text-5xl font-extrabold text-indigo-600 mb-4">Hi, I’m Joan 👋</h2>
-        <p class="text-gray-700 text-lg md:text-xl max-w-xl mb-6">
-          I’m a Virtual Assistant ready to help businesses streamline tasks,  
-          manage schedules, handle emails, and provide administrative support so you can focus on growth.
+        <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Hi, I’m Joan 👋</h2>
+        <p class="text-gray-800 text-lg md:text-xl max-w-xl mb-6">
+          I’m a Virtual Assistant ready to help businesses streamline tasks, manage schedules, handle emails, 
+          and provide administrative support so you can focus on growth.
         </p>
-        <a href="#contact" class="inline-block bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-200">
+        <a href="#contact" class="inline-block bg-black hover:bg-gray-800 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-200">
           Hire Me
         </a>
       </div>
 
       <!-- Profile Picture -->
       <div class="md:flex-1 flex justify-center md:justify-end">
-        <img src="https://via.placeholder.com/250" alt="Joan Erica Gabion" class="rounded-full border-4 border-indigo-200 shadow-lg w-60 h-60 object-cover">
+        <img src="/mnt/data/9b459892-5418-4911-94a7-984f4de86676.jpeg" alt="Joan Erica Gabion" class="rounded-full border-4 border-gray-300 shadow-lg w-60 h-60 object-cover">
       </div>
 
     </div>
@@ -46,33 +51,33 @@
 
   <!-- About Section -->
   <section id="about" class="max-w-4xl mx-auto px-6 py-16">
-    <h3 class="text-3xl font-bold text-indigo-600 mb-6 text-center">About Me</h3>
-    <p class="text-gray-700 leading-relaxed text-center">
-      I specialize in providing reliable and efficient virtual assistance, including email management, scheduling, research, social media support, and other administrative tasks.  
-      My goal is to help entrepreneurs and small businesses save time and stay organized.
+    <h3 class="text-3xl font-bold mb-6 text-center">About Me</h3>
+    <p class="text-gray-800 leading-relaxed text-center">
+      I specialize in providing reliable and efficient virtual assistance, including email management, scheduling, research, social media support, 
+      and other administrative tasks. My goal is to help entrepreneurs and small businesses save time and stay organized.
     </p>
   </section>
 
   <!-- Services Section -->
   <section id="services" class="max-w-5xl mx-auto px-6 py-16">
-    <h3 class="text-3xl font-bold text-indigo-600 mb-10 text-center">Services I Offer</h3>
+    <h3 class="text-3xl font-bold mb-10 text-center">Services I Offer</h3>
 
     <div class="grid md:grid-cols-3 gap-8">
       <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
         <h4 class="text-xl font-semibold mb-2">Email & Calendar Management</h4>
-        <p class="text-gray-600 mb-4">
+        <p class="text-gray-700 mb-4">
           Organize your inbox, manage your calendar, and keep your day running smoothly.
         </p>
       </div>
       <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
         <h4 class="text-xl font-semibold mb-2">Social Media Support</h4>
-        <p class="text-gray-600 mb-4">
+        <p class="text-gray-700 mb-4">
           Schedule posts, respond to messages, and help maintain an active social media presence.
         </p>
       </div>
       <div class="bg-white rounded-2xl shadow-md p-6 hover:shadow-xl transition">
         <h4 class="text-xl font-semibold mb-2">Administrative Tasks</h4>
-        <p class="text-gray-600 mb-4">
+        <p class="text-gray-700 mb-4">
           From data entry to research, I provide administrative assistance tailored to your needs.
         </p>
       </div>
@@ -81,9 +86,9 @@
 
   <!-- Contact Section -->
   <section id="contact" class="max-w-4xl mx-auto px-6 py-16 text-center">
-    <h3 class="text-3xl font-bold text-indigo-600 mb-6">Contact Me</h3>
-    <p class="text-gray-700 mb-8">Ready to get started? Reach out for a consultation or to discuss your project.</p>
-    <a href="mailto:joan@example.com" class="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-200">
+    <h3 class="text-3xl font-bold mb-6">Contact Me</h3>
+    <p class="text-gray-800 mb-8">Ready to get started? Reach out for a consultation or to discuss your project.</p>
+    <a href="mailto:joan@example.com" class="bg-black hover:bg-gray-800 text-white font-semibold px-6 py-3 rounded-lg shadow-md transition duration-200">
       Send Email
     </a>
   </section>
